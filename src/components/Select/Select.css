@@ -12,9 +12,8 @@
   --border-color: black;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 100px 1fr 1fr 100px;
-  grid-template-rows: 100px 1fr 100px;
-  background-color: var(--bg-color);
+.nav__controls {
+  grid-column: 2;
+  /* grid-column: 3;
+  grid-row: 1; */
 }
